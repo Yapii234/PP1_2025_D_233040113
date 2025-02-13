@@ -1,4 +1,4 @@
-package Latihan1;
+package Pertemuan1;
 
 public class Node {
 		public int getNilai() {
