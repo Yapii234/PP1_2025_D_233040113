@@ -22,7 +22,6 @@ public class nodeMain2 {
 		{
 			System.out.printf("%d, ", p.getNilai());
 			p = p.getNext();
-		}
-		
+		}	
 	}		
 }
