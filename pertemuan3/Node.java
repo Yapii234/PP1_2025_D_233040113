@@ -1,9 +1,10 @@
-package Pertemuan2;
+package pertemuan3;
 
-	public class Node {
-		private int data;
-		public Node next;
-		
+
+public class Node {
+	private int data;
+	Node next;
+	
 	public Node getNext() {
 	return next;
 	}
@@ -19,8 +20,7 @@ package Pertemuan2;
 	public Node(int data) {
 		this.data = data;
 		this.next = null;
-	}
-	
+}
 
-	}
 
+}

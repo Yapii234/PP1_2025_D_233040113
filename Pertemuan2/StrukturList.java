@@ -23,23 +23,24 @@ public class StrukturList {
 			posNode.setNext(newNode);
 		}
 	}
-	public void addHead(int data) {
-		Node newNode = new Node(data);
-		if (HEAD == null) {
-			HEAD = newNode;
-		}
-		else {
-			newNode.setNext(HEAD);
-			HEAD = newNode;
-		}
-		
-	}
 
 	public void displayElment() {
 	Node curNode = HEAD;
 	while (curNode != null) {
 		System.out.println(curNode.getData()+ " ");
 		curNode =curNode.getNext();
+	}
+}
+
+
+public void addHead(int data) {
+	Node newNode = new Node(data);
+	if (HEAD == null) {
+		HEAD = newNode;
+	}
+	else {
+		newNode.setNext(HEAD);
+		HEAD = newNode;
 	}
 }
 }
